@@ -1,0 +1,26 @@
+body{
+    background-image: url(../imagenes/overlay.png);
+}
+
+div .input-group{
+    width: 100%;
+    align-items: center;
+}
+
+div .form-group{
+    width: 100%;
+}
+
+div .input-group input{
+    text-align: center;
+}
+
+form fieldset{
+    align-items: center;
+}
+.form-control option{
+    text-align: center;
+}
+.foto{
+    align-content: center;
+}

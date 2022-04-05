@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    
+}
+
+/*Menu de navegacion*/
+
+header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.98);
+    position: sticky;
+    top: 0px;
+}
+.navMenu{
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content:space-between;
+    padding: px;
+    transition: all 0.5s ease;
+}
+
+.logo{
+    font-family: 'Comfortaa', cursive;
+    color: snow;
+    background-color:black;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: bolder;
+}
+
+.logoLink{
+    text-decoration: none;
+    color: snow;
+}
+
+.logoLink:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    overflow: hidden;
+}
+
+.menu li{
+    font-family: 'Comfortaa', cursive;
+    list-style: none;
+    margin: 12px;
+    margin-top: 30px;
+}
+.menu li a{
+    color: whitesmoke;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.menu li a:hover{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+/*Fin menu de navegacion*/
+
+/*Contenedor*/
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+    border-bottom: 12px;
+    background-image: url(../imagenes/overlay.png);
+}
+.wrapper h2{
+    font-family: 'Playfair Display', serif;
+    padding-top: 50px;
+}
+.wrapper p{
+    margin-top: 100px;
+    font-size: medium;
+}
+#tt{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
+.urbanoVintage{
+    margin-left: 80px;
+}
+.bannerArea{
+    width: 100%;
+    height: 620px;
+    top: 100px;
+    padding-top: 15%;
+    background-image: url(../imagenes/forestBike.jpg);
+    
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+.texto{
+    padding: 25px;
+    font-family: 'Comfortaa', cursive;
+    color: ghostwhite;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bannerArea .texto{
+    width: 100%;
+}
+.texto h1{
+    font-weight: bolder;
+    letter-spacing: 10px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.texto p{
+    font-size: 20px;
+    font-family:'Playfair Display', serif;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.contentArea{
+    width: 100%;
+    background: snow;
+    text-align: center;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+}
+.categoria{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+#footer{
+    background-color: black;
+    padding: 10px;
+    color: snow;
+}
+
+#footy{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: medium;
+}
+
+#footy:hover{
+    text-decoration: none;
+    color: red;
+    font-size: large;
+}
+
+.btn{
+    margin-top: 50px ;
+    color: black;
+    font-family:'Comfortaa', cursive;
+}
+
+.perfil{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(11, 187, 32);
+    border-radius: 12px;
+    padding: 5px;
+}
